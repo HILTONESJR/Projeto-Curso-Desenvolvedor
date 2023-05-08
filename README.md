@@ -13,8 +13,11 @@ Curso Realizado na Instituição Udemy
 <li>HTML</li>
 <li>CSS</li>
 <li>JavaScript</li>
+<li>BootStrap</li>
+<li>JQuery</li>
 <li>GIT</li>
 <li>Visual Code</li>
+
 </ul>
 <HR>
 <ul>
