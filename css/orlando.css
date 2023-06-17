@@ -102,6 +102,11 @@ header .header-black li a {
 header #logotipo {
 	position: absolute;
 	top: 20px;
+	z-index: 3;
+}
+#banner h1.efeito {
+	color:red;
+	font-size:12em;
 }
 #menu {
 	margin: 12px 0;
@@ -112,8 +117,8 @@ header #logotipo {
 }
 #menu li.search {
 	width: 182px;
-	transition-timing-function: cubic-bezier(1, -.91, .91, 1);
-	transition: 1s;
+	transition-timing-function: cubic-bezier(1,-.91,.91,1);
+	transition-duration: 1s;
 }
 #menu li.search.ativo {
 	width: 300px;
@@ -129,7 +134,6 @@ header #logotipo {
 #menu li.search.ativo input {
 	width: 300px;
 }
-
 #menu li.search ::-webkit-input-placeholder {
 	color: #fff;	
 }
@@ -162,6 +166,7 @@ header #logotipo {
 	top: -130px;
 }
 #banner h1 {
+	transition:1s;
 	color: #fff;
 	top: 300px;
 	position: relative;
@@ -195,7 +200,6 @@ header #logotipo {
 }
 #news .thumbnails {
 	margin-top: 20px;
-	margin: 10;
 }
 #news .thumbnails h3 {
 	color: #5E299A;
@@ -208,12 +212,11 @@ header #logotipo {
 	color:#A7A7A7;
 	font-size: 18px;
 	font-family: 'OpenSans';
-	
 }
-#new .thumbnails .item-inner {
+#news .thumbnails .item-inner {
 	padding: 10px;
 }
-#new .thumbnails .item-inner img {
+#news .thumbnails .item-inner img {
 	width: 100%;
 }
 #estatisticas {
@@ -382,4 +385,7 @@ footer .list-socials a {
 footer .list-socials i {
 	font-size: 16px;
 	margin: 7px auto;
+}
+video {
+	width: 60%;
 }
